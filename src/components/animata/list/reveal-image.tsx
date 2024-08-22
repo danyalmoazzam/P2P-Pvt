@@ -69,11 +69,11 @@ export default function RevealImageList() {
       text: "CRM Application",
       images: [
         {
-          src: "/Navy-blue-Crm-100x100.png.webp",
+          src: "/Navy-blue-Crm-100x100.webp",
           alt: "Image 1",
         },
         {
-          src: "/Navy-blue-Crm-100x100.png.webp",
+          src: "/Navy-blue-Crm-100x100.webp",
           alt: "Image 2",
         },
       ],
@@ -82,11 +82,11 @@ export default function RevealImageList() {
       text: "MS Future",
       images: [
         {
-          src: "/ms_1-removebg-preview.png.webp",
+          src: "/ms_1-removebg-preview.webp",
           alt: "Image 1",
         },
         {
-          src: "/ms_1-removebg-preview.png.webp",
+          src: "/ms_1-removebg-preview.webp",
           alt: "Image 2",
         },
       ],
