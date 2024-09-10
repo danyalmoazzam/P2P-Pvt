@@ -2,9 +2,9 @@
 
 # P2P Site - ReImagined
 
-</div>
+![P2P Site - ReImagined](image.jpg)
 
-![alt text](image.png)
+</div>
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 

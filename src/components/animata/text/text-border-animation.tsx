@@ -45,7 +45,7 @@ export default function TextBorderAnimation({
       onMouseLeave={handleHoverExit}
       className="overflow-hidden hidden lg:block"
     >
-      <span className={cn("text-5xl font-bold text-foreground", className)}>
+      <span className={cn("text-5xl font-bold text-zinc-900", className)}>
         {text}
       </span>
       <div className="relative mt-1 h-1 w-full">
@@ -59,7 +59,7 @@ export default function TextBorderAnimation({
         ></div>
         <div
           className={cn(
-            "absolute left-0 top-0 h-full w-full translate-x-0 transform bg-blue-500 opacity-0 transition-transform duration-500",
+            "absolute left-0 top-0 h-full w-full translate-x-0 transform bg-blue-500 opacity-0 transition-transform duration-300",
             isHoveredOut && "translate-x-full opacity-100"
           )}
         ></div>

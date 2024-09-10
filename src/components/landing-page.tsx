@@ -69,39 +69,8 @@ export default function Hero() {
         />
         <section className="w-full py-14 md:py-24 lg:-mt-6 lg:py-32 xl:py-48">
           <div className="container px-4 md:px-6">
-            <div className="flex flex-col items-center lg:space-y-4 space-y-6 text-center">
-              <div className="lg:space-y-2 space-y-4 mb-4 relative">
-                <Image
-                  className="hidden lg:block absolute lg:opacity-70 lg:top-0 lg:left-50 -rotate-6 lg:mt-[12.5rem] lg:ml-[46.5rem] "
-                  src="/arrow.svg"
-                  width={65}
-                  height={65}
-                  alt="arrow"
-                />
-                <FadeUpStagger />
-
-                <TextBorderAnimation
-                  text="Enable Brand Revolution"
-                  className="text-4xl hidden lg:block lg:w-full lg:text-transparent lg:left-[1px] lg:z-20 lg:text-center lg:top-[80px] lg:absolute sm:text-4xl md:text-5xl lg:text-7xl/none tracking-tight font-extrabold"
-                />
-
-                <div className="mx-auto max-w-[700px] text-gray-500 md:text-xl my-14 dark:text-gray-400">
-                  Experience the Future of Business management with{" "}
-                  <span>
-                    <Cover className="font-black ">P2P Clouds</Cover>
-                  </span>
-                  Collaboration, Innovative and Revolutionizing Product
-                  solutions for a seamless Digital Journey and Solutions.
-                </div>
-              </div>
-              <div className="space-x-4">
-                <MovB
-                  borderRadius="2rem"
-                  className="bg-white font-bold transition-all duration-300 hover:bg-blue-700 hover:text-gray-100 font-md dark:bg-slate-900 text-black dark:text-white border-neutral-200 dark:border-slate-800"
-                >
-                  Get Started
-                </MovB>
-              </div>
+            <div className="flex flex-col items-center">
+              <FadeUpStagger />
             </div>
           </div>
         </section>
