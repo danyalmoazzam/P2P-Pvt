@@ -24,7 +24,7 @@ export function FadeUpStagger() {
       }}
     >
       <motion.h1
-        className="text-9xl text-center lg:mb-1 mb-4 sm:text-4xl md:text-5xl lg:text-7xl/none tracking-tighter font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-blue-700 to-blue-900"
+        className="text-7xl text-center lg:mb-1 mb-4 sm:text-4xl md:text-5xl lg:text-7xl/none tracking-tighter font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-blue-700 to-blue-900"
         variants={FADE_UP_ANIMATION_VARIANTS}
       >
         P2P Clouds
